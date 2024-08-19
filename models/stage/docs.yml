@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: stg_order
+    description: it combines data from tables orders,customers and products
+    columns:
+      - name: customerid
+        description: it is a primary key
+      - name: segment
+        description: '{{ doc("ship_mode")}}'
