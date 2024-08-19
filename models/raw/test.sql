@@ -1,1 +1,0 @@
-select * from TEST.RAW.HEALTHCARE_CSV
